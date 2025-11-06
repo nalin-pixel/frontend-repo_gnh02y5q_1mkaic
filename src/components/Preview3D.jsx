@@ -29,7 +29,8 @@ export default function Preview3D({ image, template }) {
 
   return (
     <div className="w-full h-full relative rounded-xl overflow-hidden border bg-white">
-      <Spline scene="https://prod.spline.design/IfgQjCiGF6c1TtS0/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+      {/* Updated Spline scene per system instruction */}
+      <Spline scene="https://prod.spline.design/igThmltzmqv5hkWo/scene.splinecode" style={{ width: '100%', height: '100%' }} />
 
       {/* Overlay gradient for readability without blocking */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-white/70 via-transparent to-white/30" />
